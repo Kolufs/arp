@@ -11,9 +11,6 @@
 #include <net/ethernet.h>
 #include <stdio.h>
 #include <stdlib.h>
-#define MAC_BROADCAST_ADDR {0xff, 0xff, 0xff, 0xff, 0xff, 0xff}
-
-unsigned char hardware_broadcast_addr[] = MAC_BROADCAST_ADDR; 
 
 struct arphdr_full {
 	__be16		ar_hrd;		/* format of hardware address	*/
